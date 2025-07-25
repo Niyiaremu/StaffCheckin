@@ -6,12 +6,10 @@
             $name = $_POST["name"];
             $date = $_POST["date"];
             $time = $_POST["time"];
-
-
+            
             $sql = "INSERT INTO `checkin_list` (`name`, `date`, `time`) VALUES ('$name', '$date', '$time')";
-
+            
             $query = mysqli_query($relate, $sql);
-        
             if ($query) {
                 echo "Entry Successful";
             } 
