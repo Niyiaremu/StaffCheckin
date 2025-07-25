@@ -6,7 +6,7 @@
     <title>Staff Check-In List</title>
 </head>
 <body bgcolor="E9967A">
-    <form action="Home.php" method="post">
+    <form action="relate.php" method="POST">
         <label>Name:</label> <br>
         <input type="text" name="name" id="name"> <br><br>
 
